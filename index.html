@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Take Care of Your Car</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            width : 100%;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: #ff0000;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+            width : 100%;
+        }
+
+        nav a {
+            color: #ffd700;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffffff;
+        }
+
+        /* Main Section */
+        main {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            padding: 20px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 0 auto;
+            max-width: 1200px;
+            width: 100%;
+        }
+
+    
+        aside {
+            flex: 1 1 25%; 
+            background-color: #1a1a1a;
+            padding: 20px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            box-sizing: border-box;
+        }
+
+        aside h2 {
+            color: #ff4444;
+            margin-bottom: 15px;
+        }
+
+        aside img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        aside a {
+            display: block;
+            margin-top: 10px;
+            color: #ff4444;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        aside a:hover {
+            color: #ffffff;
+        }
+
+        /* Article Section */
+        article {
+            flex: 2 1 65%; /* Fill available space */
+            padding: 20px;
+            background-color: #181818;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        article h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #ff0000;
+        }
+
+        article section {
+            background-color: #222222;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        article section h3 {
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+            color: #ff4444;
+        }
+
+        article section p {
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        article section img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1a1a1a;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        footer .social-media {
+            margin: 15px 0;
+        }
+
+        footer .social-media a {
+            color: #ffffff;
+            margin: 0 10px;
+            font-size: 1.2rem;
+            text-decoration: none;
+        }
+
+        footer .social-media a:hover {
+            color: #ff4444;
+        }
+
+        footer a {
+            color: #ff0000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav a {
+                margin: 0 15px;
+            }
+
+            main {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            aside {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            article {
+                width: 100%;
+            }
+
+            footer .social-media a {
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+
+            nav a {
+                font-size: 0.9rem;
+                margin: 0 10px;
+            }
+
+            aside {
+                width: 100%;
+            }
+
+            article h2 {
+                font-size: 1.5rem;
+            }
+
+            article section h3 {
+                font-size: 1rem;
+            }
+
+            footer .social-media a {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>How to Take Care of Your Car</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="https://unisel.edu.my" target="_self">Home</a>
+        <a href="https://unisel.edu.my" target="_blank">About Us</a>
+        <a href="https://unisel.edu.my" target="_parent">Service</a>
+        <a href="https://unisel.edu.my" target="_parent">Contact</a>
+        <a href="https://unisel.edu.my" target="_parent">Product</a>
+    </nav>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Sidebar -->
+        <aside>
+            <h2>Quick Links</h2>
+            <a href="https://unisel.edu.my" target="_self">Car Maintenance Tips</a>
+            <a href="https://unisel.edu.my" target="_blank">Car Safety Guidelines</a>
+            <a href="https://unisel.edu.my" target="_self">Vehicle Inspection Checklist</a>
+            <a href="https://unisel.edu.my" target="_self">Fuel Efficiency Tips</a>
+        </aside>
+
+        <!-- Main Content -->
+        <article>
+            <h2>Car Maintenance Guide</h2>
+
+            <section>
+                <h3>Why Car Care is Important</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.
+                </p>
+                <img src="Green-Flag-Mar-clean-car.jpg" alt="Importance of Car Care">
+            </section>
+
+            <section>
+                <h3>Essential Car Care Tips</h3>
+                <p>
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+                <img src="full-car-service.jpg" alt="Car Care Tips">
+            </section>
+
+            <section>
+                <h3>When to Visit a Professional</h3>
+                <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                </p>
+                <img src="46212975_m.jpg" alt="Visit a Mechanic">
+            </section>
+        </article>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <h2>Connect with Us</h2>
+        <div class="social-media">
+            <a href="https://unisel.edu.my" target="_self">Facebook</a>
+            <a href="https://unisel.edu.my" target="_blank">Twitter</a>
+            <a href="https://unisel.edu.my" target="_parent">Instagram</a>
+        </div>
+        <p>Learn more at <a href="https://unisel.edu.my" target="_blank">Car Care Tips</a></p>
+    </footer>
+</body>
+</html>
+
